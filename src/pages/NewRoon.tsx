@@ -9,8 +9,8 @@ export function NewRoom() {
          <div id="page-auth">
             <aside>
                 <img src={illustrationImg} alt="Ilustração perguntas e respostas" />
-                <strong>Criar Salas de &amp; ao vivo</strong>
-                <p>Tire dúvidas</p>
+                <strong>Criar Salas de Q&amp;A ao vivo</strong>
+                <p>Tire dúvidas da sua audiência em tempo real</p>
             </aside>
             <main>
                 <div className="main-content">
@@ -25,7 +25,7 @@ export function NewRoom() {
                             Criar sala
                         </Button>
                     </form>
-                    <p>Quer mesmo entrar em uma sala existente? <Link to="/">clique aqui</Link></p>
+                    <p>Quer entrar em uma sala existente? <Link to="/">clique aqui</Link></p>
                 </div>
             </main>
         </div>
